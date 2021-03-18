@@ -1,0 +1,52 @@
+@mixin v-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+@mixin side-nav {
+  @include v-nav;
+  width: fit-content;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  nav{
+    @include v-nav;
+    justify-content: space-evenly;
+    a {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+
+.l-nav {
+  @include side-nav;
+  margin-left: 5rem;
+  .h1-adit {
+    font-family: "Have heart one";
+    font-feature-settings: "salt";
+    font-size: 3rem; 
+    margin-top: 1.8rem;
+  }
+  
+} 
+
+.r-nav  {
+  @include side-nav;
+  justify-content: center;
+  margin-left: 4rem;
+  nav {
+    height: fit-content;
+    justify-content: start;
+    a {
+      margin-top: 4.3rem;
+    }
+  }
+  h1{
+
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+ 
+}

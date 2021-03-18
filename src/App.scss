@@ -1,0 +1,72 @@
+@import './components/HeaderNav/HeaderNav';
+@import './content/HomePage';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  h1, h2, h3, h4, h5, h6, .subheading {
+    font-family: 'Work Sans', serif;
+  }
+  a, p, span {
+    font-family: 'Work Sans', sans-serif;
+  }
+}
+
+
+
+a{
+  color:black;
+  text-decoration: none;
+  
+  &:visited{
+    color:black;
+  }
+  &:hover {
+    color:black;
+    border-bottom: 4px solid rgb(153, 21, 214);
+  }
+
+}
+canvas {
+  display: block;
+}
+#app {
+  display:grid;
+  grid-template-columns: 22% 68% 10%;
+  grid-template-rows: 1fr;
+  .l-nav{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  #page-content-container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+  }
+  .r-nav{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+}
+
+img {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  background-color: #F5F5F5; 
+}
+  
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000000; 
+}
