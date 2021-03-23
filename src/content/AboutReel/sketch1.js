@@ -1,6 +1,6 @@
 export default function sketch1(p){
 	// const Pallet = createCols("https://coolors.co/007f5f-55a630-aacc00-d4d700-eeef20-ffff3f");
-	const Pallet = createCols("https://coolors.co/998fc7-42033d-680e4b-7c238c-f75590");
+	const Pallet = createCols("https://coolors.co/fffff-42033d-680e4b-7c238c-f75590");
 	// const Pallet = createCols("https://coolors.co/156064-00c49a-f8e16c-ffc2b4-fb8f67");
 	let cols = [];
 	let gra;

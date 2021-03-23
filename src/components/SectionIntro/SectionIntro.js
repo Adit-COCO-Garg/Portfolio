@@ -7,13 +7,13 @@ import Project from './assets/project.png';
 const SectionIntro = ({sectionTitle, slideHeading, slideSubheading, sketch, sId, git, projectLink}) => {
   return (
     <>
-    <h1 className="section-title" id={sId}>{sectionTitle}</h1>
+    {/* <h1 className="section-title" id={sId}>{sectionTitle}</h1> */}
     <article>
       <P5Wrapper sketch={sketch} />
       <h1 className='h1-jumbotron'>{slideHeading}</h1>
       <div className="section-links">
         {git && <a href="" >Code Repo</a>}
-        {projectLink && <a href="" >Live Project</a>}
+         <a href="https://nymisojo-front.herokuapp.com/" >Live Project</a>
       </div>
       
       <p>{slideSubheading}</p>

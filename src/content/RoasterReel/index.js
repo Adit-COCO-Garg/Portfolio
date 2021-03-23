@@ -9,7 +9,7 @@ const RoasterReel = ({sh1}) => {
       sectionTitle="03&nbsp;&nbsp;&nbsp;Roaster" 
       sId = "Roaster"
       slideHeading={sh1} 
-      slideSubheading="Much like a mum, guilt trips and roasts you for not doing your work and procastinating by sending you messanger texts." 
+      slideSubheading="Much like a mum, guilt trips and roasts you for not doing your work and procastinating by sending you messenger texts." 
       sketch={sketch1}
     />
   )

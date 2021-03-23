@@ -35,11 +35,11 @@ const AboutReel = ({sh1}) => {
         </p>
         <img src={dum} />
       </article>
-      <article className="slide one4">
+      {/* <article className="slide one4">
         <h1>Things I love and enjoy at a glance!</h1>
       
         <img src={collage} />
-      </article>
+      </article> */}
     </>
   );
 }
