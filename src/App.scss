@@ -9,7 +9,7 @@ body {
   max-width: 1910px;
   margin: 0 auto;
   h1, h2, h3, h4, h5, h6, .subheading {
-    font-family: 'Work Sans', serif;
+    font-family: 'Roboto', sans-serif;
   }
   a, p, span {
     font-family: 'Work Sans', sans-serif;
@@ -52,8 +52,20 @@ canvas {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
   }
+  footer {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      margin-right: 2rem;
+    }
+  }
 
 }
+
+
 
 img {
   user-drag: none; 

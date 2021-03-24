@@ -4,7 +4,9 @@ import './App.scss';
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
+
 import HeaderNav from "./components/HeaderNav/HeaderNav"
+import Footer from "./components/Footer/Footer"
 import HomePage from "./content/HomePage"
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <Router>
       <HeaderNav />
       <HomePage />
+      <Footer />
     </Router>
   );
 }

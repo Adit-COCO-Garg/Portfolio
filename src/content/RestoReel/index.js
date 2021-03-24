@@ -11,6 +11,7 @@ const RestoReel = ({sh1}) => {
         slideHeading={sh1} 
         slideSubheading="Resto is built to support the local Rochester community of restaurants by providing a personalized platform for online orders and menus." 
         sketch={sketch2}
+        projectLink={"https://xd.adobe.com/view/146d0559-73f3-4f1c-bde8-dbc8668440e0-413e/?fullscreen"}
       />
       
   )

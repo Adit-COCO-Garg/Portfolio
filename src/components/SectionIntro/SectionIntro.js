@@ -13,7 +13,7 @@ const SectionIntro = ({sectionTitle, slideHeading, slideSubheading, sketch, sId,
       <h1 className='h1-jumbotron'>{slideHeading}</h1>
       <div className="section-links">
         {git && <a href="" >Code Repo</a>}
-         <a href="https://nymisojo-front.herokuapp.com/" >Live Project</a>
+         {projectLink && <a href={projectLink} >Live Project</a>}
       </div>
       
       <p>{slideSubheading}</p>

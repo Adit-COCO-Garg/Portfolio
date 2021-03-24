@@ -12,6 +12,7 @@ const HeaderNav = () => {
     <>
       <div className="l-nav">
         <HashLink className="h1-adit" to="#top">Adit</HashLink>
+
         <nav>
           <HashLink smooth to="/#Who-am-I">01&nbsp;&nbsp;&nbsp;Who am I?</HashLink> 
           <HashLink smooth to="/#NYMI-SOJO">02&nbsp;&nbsp;&nbsp;NYMI<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOJO</HashLink> 

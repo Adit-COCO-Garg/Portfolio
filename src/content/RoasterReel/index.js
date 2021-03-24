@@ -11,6 +11,7 @@ const RoasterReel = ({sh1}) => {
       slideHeading={sh1} 
       slideSubheading="Much like a mum, guilt trips and roasts you for not doing your work and procastinating by sending you messenger texts." 
       sketch={sketch1}
+      projectLink={"https://www.facebook.com/RoasterApp"}
     />
   )
 }

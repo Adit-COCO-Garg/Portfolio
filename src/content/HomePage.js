@@ -16,9 +16,9 @@ const Homepage = () => {
     <div id="page-content-container">
        <section className="content-section">
           <AboutReel sh1={s1h1}/>
-          <NymisojoReel sh1={s2h1}  git="" projectLink ="https://nymisojo-front.herokuapp.com/"/>
+          <NymisojoReel sh1={s2h1} />
           <RoasterReel sh1={s3h1}  />
-          <RestoReel sh1={s4h1}  projectLink ="https://xd.adobe.com/view/146d0559-73f3-4f1c-bde8-dbc8668440e0-413e/?fullscreen "/>
+          <RestoReel sh1={s4h1}  />
           <ContactReel/>
           <ResumeReel />
        </section>

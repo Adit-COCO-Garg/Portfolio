@@ -10,6 +10,7 @@ const NymisojoReel = ({sh1} ) => {
         slideHeading={sh1} 
         slideSubheading="Platform to raise awareness about the caregiving crisis in NA by providing journalists a place to publish articles and the public to read them." 
         sketch={sketch2}
+
       />
 
   )
