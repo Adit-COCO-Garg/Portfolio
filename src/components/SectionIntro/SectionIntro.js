@@ -15,9 +15,7 @@ const SectionIntro = ({sectionTitle, slideHeading, slideSubheading, sketch, sId,
         {git && <a href="" >Code Repo</a>}
          {projectLink && <a href={projectLink} >Live Project</a>}
       </div>
-      
       <p>{slideSubheading}</p>
-      
     </article>
     </>
   )

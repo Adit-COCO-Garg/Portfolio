@@ -6,11 +6,11 @@ embed {
   border: none;
   width: 100%;
   height: 100vh;
-  // overflow: hidden;
   background-color: transparent;
 }
 
 .content-section{
+  border: 5px solid black;
   .section-title{
     font-size: 1.3rem;
     font-weight: 400;
@@ -36,9 +36,9 @@ article{
     font-size: 6rem;
     font-style: italic;
     font-weight: 600;
-    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    // -webkit-text-stroke-width: 2px;
+    // -webkit-text-stroke-color: white;
     z-index: 1;
     position: relative;
     mix-blend-mode: exclusion;
@@ -143,13 +143,15 @@ article{
 
 .one3 {
   height: fit-content;
-  grid-template-rows: 2fr 8fr;
+  min-height: 600px;
+  grid-template-rows: 1.4fr 8.6fr;
   
   h1{
     color:black;
     font-size: 2.5rem;
   }
   p{
+    margin-top: 1rem;
     grid-row:2 / 3;
     margin: 0 2rem 4rem 0;
     font-size: 1.4rem;

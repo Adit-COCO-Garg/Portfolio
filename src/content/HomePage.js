@@ -14,15 +14,29 @@ const Homepage = () => {
   const s4h1 = <>Resto</>
   return (
     <div id="page-content-container">
-       <section className="content-section">
+         <section className="content-sections">
           <AboutReel sh1={s1h1}/>
+         </section>
+
+         <section className="content-sections">
           <NymisojoReel sh1={s2h1} />
+         </section>
+
+         <section className="content-sections">
           <RoasterReel sh1={s3h1}  />
+         </section>
+
+         <section className="content-sections">
           <RestoReel sh1={s4h1}  />
+         </section>
+
+         <section className="content-sections">
           <ContactReel/>
+         </section>
+
+         <section className="content-sections">
           <ResumeReel />
-       </section>
-     
+         </section>
     </div>
   )
  

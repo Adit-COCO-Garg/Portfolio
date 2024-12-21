@@ -4,6 +4,7 @@ import sketch2 from './sketch2'
 
 const NymisojoReel = ({sh1} ) => {
   return (
+    <>
     <SectionIntro 
         sectionTitle="02&nbsp;&nbsp;&nbsp;NY&MI SOJO"
         sId = "NYMI-SOJO" 
@@ -12,7 +13,17 @@ const NymisojoReel = ({sh1} ) => {
         sketch={sketch2}
 
       />
+       <article className="slide one3">
+       <h1>Process</h1>
+       <h2>The Problem</h2>
+        <p>
+          Create a news platform for New York and Michigan Solution Journalism Collaborative by myself. <br /><br />
+        </p>
+        <p>The process: Learn, test, adapt, feedback, build. <br /><br /></p>
 
+        {/* <img src={collage} /> */}
+      </article>
+    </>
   )
 }
 

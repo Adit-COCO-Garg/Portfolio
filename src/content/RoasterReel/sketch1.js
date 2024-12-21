@@ -6,7 +6,7 @@ export default function sketch1(p){
 	let gra;
 
 	p.setup = function ()  {
-		p.createCanvas(1300, 600);
+		p.createCanvas(1288, 600);
 		p.background(100);
 		
 		for(let i = 0; i < Pallet.length; i++){

@@ -12,7 +12,7 @@ export default function sketch2(p) {
   //let noiseProg = (x) => (x);
 
   p.setup = function () {
-    p.createCanvas(1300, 600);
+    p.createCanvas(1288, 600);
     p.colorMode(p.HSB, 1);
     p.angleMode(p.DEGREES);
     p.noFill();

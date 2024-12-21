@@ -15,7 +15,7 @@ const AboutReel = ({sh1}) => {
         slideSubheading="I love creating immersive, functional, and scalable experiences." 
         sketch={sketch1}
       />
-      <article className="slide">
+      {/* <article className="slide">
         <h1>This quote resonates through and through with me. It describes the foundations of my core, who I am and why I do what I do.</h1>
         <blockquote cite="https://www.16personalities.com/enfp-personality">It doesn’t interest me what you do for a living. I want to know what you ache for – and if you dare to dream of meeting your heart’s longing. 
           It doesn’t interest me how old you are., or how rich you are. I  want to know if you will risk looking like a fool – for love – 
@@ -31,10 +31,10 @@ const AboutReel = ({sh1}) => {
           I got into RIT! And this place is more home to me than any other place ever was. The people I met the friends I met.
           All of it is engraved onto my heart! <br /><br />
           Charlotte AKA DUMDUM - my best friend on the right. I along with my friends did everything from doughnuts in a 
-          parking lot to 3 AM spontaneous trip to NYC.
-        </p>
-        <img src={dum} />
-      </article>
+          parking lot to a 3 AM spontaneous trip to NYC.
+        </p> */}
+        {/* <img src={collage} /> */}
+      {/* </article> */}
       {/* <article className="slide one4">
         <h1>Things I love and enjoy at a glance!</h1>
       
